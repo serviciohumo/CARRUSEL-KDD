@@ -18,9 +18,9 @@
     }
 
     .carousel-container {
-      perspective: 1000px;
-      width: 200px;
-      height: 300px;
+      perspective: 1200px; /* Ajustamos la perspectiva para la nueva separación */
+      width: 150px; /* Ancho del contenedor del carrusel */
+      height: 200px; /* Alto del contenedor del carrusel */
       position: relative;
     }
 
@@ -64,13 +64,13 @@
     /* Estilos para la imagen fija en el centro, ahora por delante del carrusel */
     .fixed-image {
       position: absolute;
-      top: -25%; /* ¡Cambiado! Esto sube la imagen aún más por encima del contenedor. */
+      top: -50%; /* ¡Cambiado! Esto sube la imagen mucho más por encima del contenedor. */
       left: 50%;
       transform: translate(-50%, 0%); /* Centra horizontalmente, no verticalmente */
-      width: 150px; /* Ajusta el tamaño según sea necesario */
+      width: 120px; /* Un poco más grande */
       height: auto;
-      z-index: 1; /* ¡Importante! Coloca la imagen por delante de los elementos del carrusel */
-      opacity: 0.8; /* Ajusta la opacidad para que se vea bien */
+      z-index: 1; /* Coloca la imagen por delante de los elementos del carrusel */
+      opacity: 0.9; /* Un poco menos transparente */
       border-radius: 12px;
       box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
     }
@@ -83,60 +83,60 @@
 </head>
 <body>
   <div class="carousel-container">
-    <!-- Imagen fija en el centro y por delante del carrusel -->
+    <!-- Imagen fija en el centro y por delante del carrusel (URL actualizada) -->
     <img src="https://i.postimg.cc/Z5CHz0br/KDDMISUCAL-BUEBO.png" alt="Logo KDDMUSICAL" class="fixed-image">
 
     <div class="carousel">
       <!-- DJ 1 -->
-      <div class="carousel-item" style="transform: rotateY(0deg) translateZ(350px);">
+      <div class="carousel-item" style="transform: rotateY(0deg) translateZ(300px);">
         <img src="https://i.postimg.cc/3R2h6n6V/MARITTA.jpg" alt="DJ Marita">
         <h2>DJ Marita</h2>
       </div>
 
       <!-- DJ 2 -->
-      <div class="carousel-item" style="transform: rotateY(40deg) translateZ(350px);">
+      <div class="carousel-item" style="transform: rotateY(40deg) translateZ(300px);">
         <img src="https://i.postimg.cc/2yrc56K2/dj-cofifente.png" alt="DJ Confidente">
         <h2>DJ Confidente</h2>
       </div>
 
       <!-- DJ 3 -->
-      <div class="carousel-item" style="transform: rotateY(80deg) translateZ(350px);">
+      <div class="carousel-item" style="transform: rotateY(80deg) translateZ(300px);">
         <img src="https://i.postimg.cc/9Fx8WctY/dk-lupe47.png" alt="Lupe47">
         <h2>Lupe47</h2>
       </div>
 
       <!-- DJ 4 -->
-      <div class="carousel-item" style="transform: rotateY(120deg) translateZ(350px);">
+      <div class="carousel-item" style="transform: rotateY(120deg) translateZ(300px);">
         <img src="https://i.postimg.cc/WzjVP0c3/NADIMA.jpg" alt="DJ Nadima">
         <h2>DJ Nadima</h2>
       </div>
 
       <!-- DJ 5 -->
-      <div class="carousel-item" style="transform: rotateY(160deg) translateZ(350px);">
+      <div class="carousel-item" style="transform: rotateY(160deg) translateZ(300px);">
         <img src="https://i.postimg.cc/9XtVYgyq/ROB.jpg" alt="Dj-R0b_">
         <h2>Dj-R0b_</h2>
       </div>
 
       <!-- DJ 6 -->
-      <div class="carousel-item" style="transform: rotateY(200deg) translateZ(350px);">
+      <div class="carousel-item" style="transform: rotateY(200deg) translateZ(300px);">
         <img src="https://i.postimg.cc/cLrDCPFy/Pepe-Ayacucho.jpg" alt="Dj PepeAyacucho">
         <h2>Dj PepeAyacucho</h2>
       </div>
 
       <!-- DJ 7 -->
-      <div class="carousel-item" style="transform: rotateY(240deg) translateZ(350px);">
+      <div class="carousel-item" style="transform: rotateY(240deg) translateZ(300px);">
         <img src="https://i.postimg.cc/Bn6zDjQz/DJ-LAYLA.jpg" alt="Dj-LAYLA_O_o">
         <h2>Dj-LAYLA_O_o</h2>
       </div>
 
       <!-- DJ 8 (DJ-_LENOVO_) con imagen real -->
-      <div class="carousel-item" style="transform: rotateY(280deg) translateZ(350px);">
+      <div class="carousel-item" style="transform: rotateY(280deg) translateZ(300px);">
         <img src="https://i.postimg.cc/kgzTbwHV/shared-image-4.jpg" alt="DJ-_LENOVO_">
         <h2>DJ-_LENOVO_</h2>
       </div>
 
       <!-- DJ 9 -->
-      <div class="carousel-item" style="transform: rotateY(320deg) translateZ(350px);">
+      <div class="carousel-item" style="transform: rotateY(320deg) translateZ(300px);">
         <img src="https://i.postimg.cc/DyfpkSsz/dj-humo.png" alt="Dj-humo">
         <h2>Dj-humo</h2>
       </div>
